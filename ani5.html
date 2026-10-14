@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="lang.css"?>
+
+<Programming_lang>
+
+    <main_title>
+        <title>Welcome to LearnHub!</title>
+        <sub_title>Your gateway to mastering technology</sub_title>
+    </main_title>
+
+    <main_section>
+
+        <language_section>
+            <div>
+                <photo src="G.jpg"/>
+                <name>Programming</name>
+            </div>
+
+            <div>
+                <p>Build Strong programming foundations</p>
+            </div>
+
+            <sub>
+                <topic1>Python</topic1>
+                <topic2>JavaScript</topic2>
+                <topic3>Java</topic3>
+            </sub>
+        </language_section>
+
+        <language_section>
+            <div>
+                <photo src="pic1.jpg"/>
+                <name>Data Science</name>
+            </div>
+
+            <div>
+                <p>Analyze and interpret complex data.</p>
+            </div>
+
+            <sub>
+                <topic1>Machine Learning</topic1>
+                <topic2>Data Visualization</topic2>
+                <topic3>Deep Learning</topic3>
+            </sub>
+        </language_section>
+
+        <language_section>
+            <div>
+                <photo src="pic2.jpg"/>
+                <name>Web Development</name>
+            </div>
+
+            <div>
+                <p>Create modern and responsive websites.</p>
+            </div>
+
+            <sub>
+                <topic1>HTML</topic1>
+                <topic2>CSS</topic2>
+                <topic3>React</topic3>
+            </sub>
+        </language_section>
+
+    </main_section>
+
+</Programming_lang>
+/* Main Title */
+
+main_title {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+title {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+sub_title {
+    display: block;
+    font-size: 16px;
+    color: gray;
+}
+
+
+/* Main Section */
+
+main_section {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Language Cards */
+
+language_section {
+    width: 280px;
+    margin: 10px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border: 1px solid silver;
+    background-color: whitesmoke;
+}
+
+
+/* Images */
+
+photo {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* Language Name */
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    margin: 10px;
+}
+
+
+/* Topics */
+
+sub {
+    display: block;
+    margin-top: 15px;
+}
+
+topic1, topic2, topic3 {
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    background-color: lightblue;
+}
