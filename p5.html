@@ -1,143 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="lang.css"?>
 
-<Programming_lang>
+<courses>
 
-    <main_title>
-        <title>Welcome to LearnHub!</title>
-        <sub_title>Your gateway to mastering technology</sub_title>
-    </main_title>
+    <title>Welcome to LearnHub!</title>
+    <subtitle>Your gateway to mastering technology</subtitle>
 
-    <main_section>
+    <course>
+        <photo src="G.jpg"/>
+        <name>Programming</name>
+        <description>Build strong programming foundations</description>
+        <topics>Python | JavaScript | Java</topics>
+    </course>
 
-        <language_section>
-            <div>
-                <photo src="G.jpg"/>
-                <name>Programming</name>
-            </div>
+    <course>
+        <photo src="pic1.jpg"/>
+        <name>Data Science</name>
+        <description>Analyze and interpret complex data.</description>
+        <topics>Machine Learning | Data Visualization | Deep Learning</topics>
+    </course>
 
-            <div>
-                <p>Build Strong programming foundations</p>
-            </div>
+    <course>
+        <photo src="pic2.jpg"/>
+        <name>Web Development</name>
+        <description>Create modern and responsive websites.</description>
+        <topics>HTML | CSS | React</topics>
+    </course>
 
-            <sub>
-                <topic1>Python</topic1>
-                <topic2>JavaScript</topic2>
-                <topic3>Java</topic3>
-            </sub>
-        </language_section>
-
-        <language_section>
-            <div>
-                <photo src="pic1.jpg"/>
-                <name>Data Science</name>
-            </div>
-
-            <div>
-                <p>Analyze and interpret complex data.</p>
-            </div>
-
-            <sub>
-                <topic1>Machine Learning</topic1>
-                <topic2>Data Visualization</topic2>
-                <topic3>Deep Learning</topic3>
-            </sub>
-        </language_section>
-
-        <language_section>
-            <div>
-                <photo src="pic2.jpg"/>
-                <name>Web Development</name>
-            </div>
-
-            <div>
-                <p>Create modern and responsive websites.</p>
-            </div>
-
-            <sub>
-                <topic1>HTML</topic1>
-                <topic2>CSS</topic2>
-                <topic3>React</topic3>
-            </sub>
-        </language_section>
-
-    </main_section>
-
-</Programming_lang>
-lang.css
-/* Main Title */
-
-main_title {
+</courses>
+courses {
     display: block;
     text-align: center;
-    margin: 20px;
+    font-family: Arial;
 }
 
 title {
     display: block;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 25px;
     color: darkblue;
+    margin: 20px;
 }
 
-sub_title {
+subtitle {
     display: block;
-    font-size: 16px;
     color: gray;
 }
 
-
-/* Main Section */
-
-main_section {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* Language Cards */
-
-language_section {
-    width: 280px;
+course {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
     margin: 10px;
     padding: 15px;
-    display: block;
-    text-align: center;
     border: 1px solid silver;
     background-color: whitesmoke;
 }
 
-
-/* Images */
-
 photo {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
-
-
-/* Language Name */
 
 name {
     display: block;
     font-size: 20px;
-    font-weight: bold;
     color: darkblue;
     margin: 10px;
 }
 
-
-/* Topics */
-
-sub {
+description, topics {
     display: block;
-    margin-top: 15px;
-}
-
-topic1, topic2, topic3 {
-    display: inline-block;
-    padding: 5px;
-    margin: 3px;
-    background-color: lightblue;
+    margin: 10px;
 }
