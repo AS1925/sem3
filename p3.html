@@ -1,374 +1,345 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My CV</title>
+    <title>Learning Hub</title>
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
 
-body{
-    font:11px Arial,sans-serif;
-    background:#eee;
-    color:#333;
-    line-height:1.35
-}
+        header {
+            background: lightblue;
+            padding: 15px;
+        }
 
-.cv{
-    width:800px;
-    max-width:95%;
-    margin:15px auto;
-    background:#fff;
-    display:grid;
-    grid-template-columns:27% 73%;
-    box-shadow:0 0 8px #bbb
-}
+        header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
 
-.left{
-    background:#222;
-    color:#fff;
-    padding:18px 15px
-}
+        nav {
+            background: darkblue;
+            padding: 12px;
+        }
 
-.right{padding:20px 24px}
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
 
-.profile{
-    text-align:center;
-    margin-bottom:18px
-}
+        .content {
+            background: white;
+            width: 70%;
+            margin: 25px auto;
+            padding: 20px;
+        }
 
-.profile img{
-    width:95px;
-    height:95px;
-    border-radius:50%;
-    object-fit:cover;
-    border:3px solid #fff
-}
-
-.left-section{margin-bottom:16px}
-
-h2{
-    font-size:15px;
-    padding-bottom:3px;
-    margin-bottom:7px;
-    border-bottom:1px solid #4b00fa
-}
-
-.left p{
-    color:#ddd;
-    margin-bottom:4px
-}
-
-.skills,.languages{
-    list-style:none
-}
-
-.skills li{
-    background:#333;
-    padding:4px 7px;
-    margin-bottom:4px;
-    border-left:2px solid #4b00fa
-}
-
-.languages li{
-    color:#ddd;
-    margin-bottom:4px
-}
-
-.right-header{
-    border-bottom:1px solid #4b00fa;
-    padding-bottom:9px;
-    margin-bottom:13px
-}
-
-.right-header h1{
-    font-size:27px;
-    color:#4b00fa
-}
-
-.right-header p{color:#777}
-
-.section{margin-bottom:13px}
-
-.section h2{
-    color:#4b00fa;
-    border-bottom:1px solid #ddd
-}
-
-.section p{
-    font-size:11px;
-    text-align:justify
-}
-
-.education-item{
-    margin-bottom:8px;
-    padding-left:8px;
-    border-left:2px solid #4b00fa
-}
-
-.education-item h3{
-    font-size:13px
-}
-
-.year{
-    color:#4b00fa!important;
-    font-weight:bold
-}
-
-.internship{
-    background:#f7f7f7;
-    padding:8px;
-    border-radius:3px
-}
-
-.internship h3{font-size:13px}
-
-.internship h4{
-    color:#4b00fa;
-    font-size:11px
-}
-
-.internship ul{
-    margin:4px 0 0 15px
-}
-
-.internship li{
-    margin-bottom:2px
-}
-
-.project{
-    border:1px solid #ddd;
-    padding:8px;
-    margin-bottom:6px;
-    border-radius:3px
-}
-
-.project h3{
-    font-size:12px;
-    margin-bottom:2px
-}
-
-.technology{
-    color:#4b00fa!important;
-    font-weight:bold
-}
-
-.certificates{
-    padding-left:15px
-}
-
-.certificates li{
-    margin-bottom:3px
-}
-
-.signature{
-    display:flex;
-    justify-content:space-between;
-    margin-top:15px
-}
-
-.sign{text-align:center}
-</style>
+        h2, h3 {
+            color: darkblue;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="cv">
+<header>
+    <img src="G.jpg">
+    <h1>Welcome to Learning Hub</h1>
+    <p>Your Gateway to Learning Technology</p>
+</header>
 
-<!-- LEFT SIDE -->
-<div class="left">
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Courses</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
 
-<div class="profile">
-<img src="https://tse1.mm.bing.net/th/id/OIP.JL2Zk3Mtama3eT65HbqyxAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Profile Photo">
-</div>
+<div class="content">
 
-<div class="left-section">
-<h2>Contact</h2>
-<p>📞 +91 98765 43210</p>
-<p>✉ sri@gmail.com</p>
-<p>📍 Salem, Tamil Nadu</p>
-<p>🔗 linkedin.com/in/sri</p>
-<p>💻 github.com/AS1925</p>
-</div>
+    <h2>Learn. Practice. Grow.</h2>
 
-<div class="left-section">
-<h2>Skills</h2>
-<ul class="skills">
-<li>Python</li>
-<li>Java</li>
-<li>SQL</li>
-<li>HTML & CSS</li>
-<li>JavaScript</li>
-<li>React</li>
-</ul>
-</div>
+    <h3>Programming</h3>
+    <p>Learn Python, Java and JavaScript.</p>
 
-<div class="left-section">
-<h2>Languages</h2>
-<ul class="languages">
-<li>English</li>
-<li>Tamil</li>
-</ul>
-</div>
+    <h3>Data Science</h3>
+    <p>Learn Machine Learning and Data Visualization.</p>
 
-<div class="left-section">
-<h2>Personal Details</h2>
-<p><b>DOB:</b> 22 April 2003</p>
-<p><b>Nationality:</b> Indian</p>
-<p><b>Gender:</b> Female</p>
-<p><b>Location:</b> Salem</p>
-</div>
+    <h3>Web Development</h3>
+    <p>Learn HTML, CSS and React.</p>
 
 </div>
 
-
-<!-- RIGHT SIDE -->
-<div class="right">
-
-<div class="right-header">
-<h1>Maadhava Shree M P</h1>
-<p>AI/ML Engineer</p>
-</div>
+</body>
+</html>
 
 
-<!-- ABOUT -->
-<div class="section">
-<h2>About Me</h2>
-<p>Motivated Computer Science student interested in AI/ML,
-web development and software engineering. Passionate about
-learning new technologies, developing applications and solving
-problems. Good communication and teamwork skills.
-</p>
-</div>
+about.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Learning Hub</title>
 
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
 
-<!-- EDUCATION -->
-<div class="section">
-<h2>Education</h2>
+        header {
+            background: lightblue;
+            padding: 15px;
+        }
 
-<div class="education-item">
-<p class="year">2025 - 2027</p>
-<h3>Master of Computer Applications</h3>
-<p>Periyar University | CGPA: 9.0/10</p>
-</div>
+        header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
 
-<div class="education-item">
-<p class="year">2022 - 2026</p>
-<h3>Bachelor of Mathematics</h3>
-<p>GovtArts and Science College  | CGPA: 8.6/10</p>
-</div>
+        nav {
+            background: darkblue;
+            padding: 12px;
+        }
 
-<div class="education-item">
-<p class="year">2021 - 2022</p>
-<h3>Higher Secondary Education</h3>
-<p>Govt Girls Higher Secondary School | 88%</p>
-</div>
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
 
-<div class="education-item">
-<p class="year">2019 - 2020</p>
-<h3>SSLC</h3>
-<p>Govt Girls Higher Secondary School | 92%</p>
-</div>
+        .content {
+            background: white;
+            width: 70%;
+            margin: 25px auto;
+            padding: 20px;
+        }
 
-</div>
+        h2 {
+            color: darkblue;
+        }
+    </style>
+</head>
 
+<body>
 
-<!-- INTERNSHIP -->
-<div class="section">
-<h2>Internship</h2>
+<header>
+    <img src="G.jpg">
+    <h1>Learning Hub</h1>
+    <p>Your Gateway to Learning Technology</p>
+</header>
 
-<div class="internship">
-<h3>Web Development Intern</h3>
-<h4>CodeBind Technologies | June 2026 - July 2026</h4>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Courses</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
 
-<ul>
-<li>Developed responsive web pages using HTML and CSS.</li>
-<li>Created interactive components using JavaScript.</li>
-<li>Fixed bugs and improved website functionality.</li>
-</ul>
-</div>
-</div>
+<div class="content">
 
+    <h2>About Us</h2>
 
-<!-- PROJECTS -->
-<div class="section">
-<h2>Projects</h2>
+    <p>
+        Learning Hub is an online learning platform that
+        helps students learn modern technology.
+    </p>
 
-<div class="project">
-<h3>1. Student Management System</h3>
-<p>
-Developed a system to add, update, search and manage
-student records efficiently.
-</p>
-<p class="technology">Python, SQL, HTML, CSS</p>
-</div>
-
-<div class="project">
-<h3>2. Online Shopping Website</h3>
-<p>
-Built a responsive e-commerce website with product
-browsing and shopping cart features.
-</p>
-<p class="technology">HTML, CSS, JavaScript</p>
-</div>
+    <p>
+        We provide simple and practical courses in
+        Programming, Data Science and Web Development.
+    </p>
 
 </div>
 
+</body>
+</html>
 
-<!-- CERTIFICATES -->
-<div class="section">
-<h2>Certificates</h2>
 
-<ul class="certificates">
-<li>Full Stack Web Development</li>
-<li>Python Programming</li>
-<li>JavaScript Fundamentals</li>
-<li>Database Management with SQL</li>
-</ul>
+
+services.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Courses</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
+
+        header {
+            background: lightblue;
+            padding: 15px;
+        }
+
+        header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        nav {
+            background: darkblue;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        .content {
+            background: white;
+            width: 70%;
+            margin: 25px auto;
+            padding: 20px;
+        }
+
+        .course {
+            border: 1px solid silver;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        h2, h3 {
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="G.jpg">
+    <h1>Learning Hub</h1>
+    <p>Your Gateway to Learning Technology</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Courses</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="content">
+
+    <h2>Our Courses</h2>
+
+    <div class="course">
+        <h3>Programming</h3>
+        <p>Python | Java | JavaScript</p>
+    </div>
+
+    <div class="course">
+        <h3>Data Science</h3>
+        <p>Machine Learning | Data Visualization</p>
+    </div>
+
+    <div class="course">
+        <h3>Web Development</h3>
+        <p>HTML | CSS | JavaScript | React</p>
+    </div>
+
 </div>
 
+</body>
+</html>
 
-<!-- ACHIEVEMENTS -->
-<div class="section">
-<h2>Achievements</h2>
+contact.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
 
-<ul class="certificates">
-<li>Participated in college coding competitions.</li>
-<li>Attended technical workshops and seminars.</li>
-<li>Completed multiple academic projects.</li>
-</ul>
-</div>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
 
+        header {
+            background: lightblue;
+            padding: 15px;
+        }
 
-<!-- DECLARATION -->
-<div class="section">
-<h2>Declaration</h2>
+        header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
 
-<p>
-I hereby declare that the information provided above is
-true and correct to the best of my knowledge and belief.
-</p>
-</div>
+        nav {
+            background: darkblue;
+            padding: 12px;
+        }
 
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
 
-<!-- SIGNATURE -->
-<div class="signature">
+        .content {
+            background: white;
+            width: 70%;
+            margin: 25px auto;
+            padding: 20px;
+        }
 
-<div>
-<p><b>Place:</b> Salem</p>
-<p><b>Date:</b> 08-08-2026</p>
-</div>
+        input, textarea {
+            width: 80%;
+            padding: 8px;
+            margin: 8px;
+        }
 
-<div class="sign">
-<p>________________</p>
-<p><b>Maadhava Shree</b></p>
-<p>Signature</p>
-</div>
+        button {
+            padding: 10px 20px;
+            background: darkblue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
 
-</div>
+<body>
 
-</div>
+<header>
+    <img src="G.jpg">
+    <h1>Learning Hub</h1>
+    <p>Your Gateway to Learning Technology</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Courses</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="content">
+
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Enter Name"><br>
+        <input type="email" placeholder="Enter Email"><br>
+        <input type="text" placeholder="Enter Phone"><br>
+        <textarea placeholder="Enter Message"></textarea><br>
+        <button>Send Message</button>
+    </form>
+
 </div>
 
 </body>

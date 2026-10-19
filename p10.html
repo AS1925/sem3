@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1> Mouse and Form Events </h1>
+<h3  style="background:lightblue;padding:20px;width:200px"
+onmouseover="this.style.background='lightgreen'"
+onmouseout="this.style.background='lightblue'"
+onclick="this.style.background='orange'">
+Hover / Click Me
+</h3>
+<form onsubmit="event.preventDefault();
+document.getElementById('msg').innerHTML='Hello '+name.value;
+this.reset()">
+<input id="name" placeholder="Enter name" required>
+<button>Submit</button>
+</form>
+<p id="msg"></p>
+</body>
+</html>
