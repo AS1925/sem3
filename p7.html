@@ -1,54 +1,44 @@
-```html
 <!DOCTYPE html>
 <html ng-app>
+
 <head>
-    <title>Login Form</title>
+    <title>Input Validation</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-
-    <style>
-        body { font-family: Arial; margin: 30px; }
-        p { color: red; }
-        h3 { color: green; }
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">
+    </script>
 </head>
 
 <body>
 
-<h2>Login Form</h2>
+    <h2>Login Form</h2>
 
-<form name="form" novalidate ng-submit="success=true">
+    <form name="form" novalidate>
 
-    Email:
-    <input type="email" name="email"
-           ng-model="email" required>
+        Email:
+        <input type="email" name="email"
+               ng-model="email" required>
 
-    <p ng-show="form.email.$touched && form.email.$invalid">
-        Enter a valid email
-    </p>
+        <p ng-show="form.email.$touched && form.email.$invalid">
+            Enter a valid email
+        </p>
 
-    <br>
+        Password:
+        <input type="password" name="password"
+               ng-model="password"
+               ng-minlength="6"
+               required>
 
-    Password:
-    <input type="password" name="password"
-           ng-model="password" required ng-minlength="6">
+        <p ng-show="form.password.$touched && form.password.$invalid">
+            Password must contain 6 characters
+        </p>
 
-    <p ng-show="form.password.$touched && form.password.$invalid">
-        Password must contain at least 6 characters
-    </p>
+        <br>
 
-    <br><br>
+        <button ng-disabled="form.$invalid">
+            Login
+        </button>
 
-    <button type="submit" ng-disabled="form.$invalid">
-        Login
-    </button>
-
-</form>
-
-<h3 ng-show="success">
-    Login Successful! Welcome, {{email}}!
-</h3>
+    </form>
 
 </body>
 </html>
-```
