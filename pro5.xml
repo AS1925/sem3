@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="lang.css"?>
+
+<programming-lang>
+    <main-title>
+        <title>Welcome to Learn Hub</title>
+        <sub-title>Your Gateway to Mastering Technology</sub-title>
+    </main-title>
+
+    <main-section>
+
+        <language-section>
+            <div>
+                <photo src="G.jpg"/>
+                <name>Programming</name>
+            </div>
+
+            <div>
+                <p>Build strong programming foundations</p>
+            </div>
+
+            <sub>
+                <topic1>Python</topic1>
+                <topic2>JavaScript</topic2>
+                <topic3>Java</topic3>
+            </sub>
+        </language-section>
+
+        <language-section>
+            <div>
+                <photo src="Pic1.jpg"/>
+                <name>Data Science</name>
+            </div>
+
+            <div>
+                <p>Analyze and interpret complex data</p>
+            </div>
+
+            <sub>
+                <topic1>Machine Learning</topic1>
+                <topic2>Data Visualization</topic2>
+                <topic3>Deep Learning</topic3>
+            </sub>
+        </language-section>
+
+        <language-section>
+            <div>
+                <photo src="Pic2.jpg"/>
+                <name>Web Development</name>
+            </div>
+
+            <div>
+                <p>Create modern and responsive websites</p>
+            </div>
+
+            <sub>
+                <topic1>HTML</topic1>
+                <topic2>CSS</topic2>
+                <topic3>JavaScript</topic3>
+            </sub>
+        </language-section>
+
+    </main-section>
+</programming-lang>
+programming-lang {
+    display: block;
+    font-family: Arial;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+main-title {
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+title {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+sub-title {
+    display: block;
+    font-size: 16px;
+}
+
+main-section {
+    display: block;
+}
+
+language-section {
+    display: block;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+p {
+    display: block;
+    color: green;
+}
+
+sub {
+    display: block;
+    color: red;
+    margin: 5px;
+}

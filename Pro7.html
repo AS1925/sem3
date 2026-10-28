@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Input Validation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+
+<h2>Input Validation</h2>
+
+<form name="f">
+    Name:
+    <input type="text" ng-model="name" required>
+    <br><br>
+
+    Email:
+    <input type="email" ng-model="email" required>
+    <br><br>
+
+    <button ng-disabled="f.$invalid">Submit</button>
+</form>
+
+</body>
+</html>
