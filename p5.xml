@@ -7,21 +7,18 @@
     <subtitle>Your gateway to mastering technology</subtitle>
 
     <course>
-        <photo src="G.jpg"/>
         <name>Programming</name>
         <description>Build strong programming foundations</description>
         <topics>Python | JavaScript | Java</topics>
     </course>
 
     <course>
-        <photo src="pic1.jpg"/>
         <name>Data Science</name>
         <description>Analyze and interpret complex data.</description>
         <topics>Machine Learning | Data Visualization | Deep Learning</topics>
     </course>
 
     <course>
-        <photo src="pic2.jpg"/>
         <name>Web Development</name>
         <description>Create modern and responsive websites.</description>
         <topics>HTML | CSS | React</topics>
@@ -54,11 +51,6 @@ course {
     padding: 15px;
     border: 1px solid silver;
     background-color: whitesmoke;
-}
-
-photo {
-    width: 70px;
-    height: 70px;
 }
 
 name {
